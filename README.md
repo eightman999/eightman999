@@ -16,10 +16,10 @@
 
 - **Name:** eightman999  
 - **Location:** 🇯🇵 Japan  
-- **Occupation:** Programmer & HOI4 Modder  
+- **Occupation:** Programmer & Modder  
 - **Hobbies:** Strategy Games / GUI Design / Coding Small Tools  
 - **好きなこと:** 🍳 料理をすること・🍱 食べること  
-- **最近触ってる:** C#, Python, HOI4の艦船MOD構造 etc.
+- **最近触ってる:** C#, Python, HOI4の艦船MOD構造、Minecraftデータパック etc.
 
 ---
 
@@ -28,7 +28,10 @@
 <table>
 <tr><td>💻 Languages:</td><td><img src="https://skillicons.dev/icons?i=python,java,kotlin,swift,html,css,js,c,cs" /></td></tr>
 <tr><td>🛠️ Tools:</td><td><img src="https://skillicons.dev/icons?i=vscode,xcode,github" /> Claude / Gemini / ChatGPT</td></tr>
-<tr><td>🎮 Modding:</td><td><img src="https://img.shields.io/badge/HOI4%20Modding-My%20Playground-blue?style=flat-square&logo=paradox-interactive" /></td></tr>
+<tr><td>🎮 Modding:</td><td>
+  <img src="https://img.shields.io/badge/HOI4%20Modding-Paradox-blue?style=flat-square&logo=paradox-interactive&logoColor=white" />
+  <img src="https://img.shields.io/badge/Minecraft%20Modding-Creative-green?style=flat-square&logo=minecraft&logoColor=white" />
+</td></tr>
 </table>
 
 ---
@@ -60,6 +63,7 @@
 ## 🗓️ 最近の更新
 
 - 2025.06.09: デザインをポータル→個人ページ風に改装  
+- 2025.06.09: ModdingにMinecraftを追加  
 - 2025.06.08: 名言追加  
 - 2025.06.07: Push反映グラフ適用  
 
