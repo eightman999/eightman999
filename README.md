@@ -1,81 +1,84 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-</div>
+<!-- 2000年代ポータル風 GitHubプロフィール -->
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=header&animation=twinkling" />
-</div>
+<table width="100%" style="background-color:#E0E8F0;font-family:'Arial',sans-serif;border:2px solid #a0a0a0;padding:10px">
+<tr>
+  <td align="center" colspan="2">
+    <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" />
+    <h1 style="color:#003366;margin:10px 0;">Welcome to eightman999's GitHub Portal</h1>
+    <marquee behavior="alternate" direction="left" scrollamount="5" style="color:darkblue;font-weight:bold;">🚀 Modding the world, one commit at a time! 🛠️</marquee>
+  </td>
+</tr>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+eightman999+%F0%9F%91%8B;HOI4+Modder+%26+Programmer+%E2%9C%A8;Always+Learning+New+Things+%F0%9F%93%9A" alt="Typing SVG" />
-</div>
+<tr>
+  <td width="70%" valign="top" style="padding:10px;">
 
-## 🌟 About Me
+### 🌐 News
 
-<div align="center">
+- <a href="#tech-stack">🛠️ 技術スタック更新</a>（Python / HOI4 / Kotlin etc）
+- <a href="#quote">🗣️ 名言追加</a>（羽仁もと子）
+- <a href="#stats">📊 アクティビティ反映改善</a>（Push含む）
+
+---
+
+### 🛠️ Tech Stack <a name="tech-stack"></a>
 
 <table>
-<tr>
-<td width="200" align="center">
-<img src="https://skillicons.dev/icons?i=python" width="100" height="100" alt="Python" />
-<br><strong>Python</strong>
-</td>
-<td width="400" align="left">
-
-### 👋 Hi, I'm eightman999!
-
-🛠️ Developer & HOI4 Modder with a love for creative systems  
-🌏 Based in Japan 🇯🇵  
-🎮 I mix historical strategy with modern code  
-📚 Currently exploring new technologies and modding tools  
-
-</td>
-</tr>
+<tr><td>💻 言語:</td><td><img src="https://skillicons.dev/icons?i=python,java,kotlin,swift,html,css,js,c,cs" /></td></tr>
+<tr><td>🎮 Modding:</td><td><img src="https://img.shields.io/badge/HOI4%20Modding-Strategy%20Games-critical?style=flat&logo=paradox-interactive&logoColor=white" /></td></tr>
+<tr><td>🧰 ツール:</td><td><img src="https://skillicons.dev/icons?i=vscode,github,git,postman" /></td></tr>
 </table>
 
-</div>
+---
 
-## 🛠️ Tech Stack
+### 📚 About Me
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,java,kotlin,swift,html,css,js,c,cs" />
-<br>
-<img src="https://img.shields.io/badge/HOI4%20Modding-Strategy%20Games-critical?style=for-the-badge&logo=paradox-interactive&logoColor=white" />
-</div>
+- 🏷️ 名前: **eightman999**
+- 🗾 所在地: 日本 🇯🇵  
+- 🎮 趣味: HOI4 Mod制作、戦略ゲーム、GUI構築
+- ☕ 好きなもの: コーヒーとバグ修正とCSS調整  
+- 📝 モットー: *「面白くなければ意味がない」*
 
-## 📊 GitHub Analytics
+---
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eightman999&theme=transparent&border_radius=10&starting_year=2020" alt="readme streak stats" />
-</div>
+### 🏆 GitHub Stats <a name="stats"></a>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=eightman999&custom_title=eightman999's%20GitHub%20Activity%20Graph&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true&hide=issues&area_color=9bd3f7&custom_title=Contribution+Graph+(Including+Push+Commits)" />
-</div>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=eightman999&theme=classic&border_radius=5" /><br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=eightman999&bg_color=ffffff&color=003366&line=336699&point=6699cc&area=true&hide_border=true&area_color=ccddee" />
 
-## 🏆 GitHub Trophies
+  </td>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=eightman999&theme=transparent&no-frame=true&no-bg=false&margin-w=4&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&title=Commit,Commits" />
-</div>
+  <td width="30%" valign="top" style="background-color:#f8f8ff;padding:10px;border-left:1px solid #a0a0a0;">
 
-## 💭 Dev Quote
+### 🔗 Links
 
-<div align="center">
+- 📌 [My GitHub](https://github.com/eightman999)  
+- 📎 [Favorite Tools](https://skillicons.dev/)  
+- 📂 [My Mods](#)
+
+---
+
+### 🧠 Quote of the Day <a name="quote"></a>
 
 > 💬 **力は「出るもの出せるもの」**  
 > 💬 **「やってみよう」と「どうせ駄目だ」**  
 > ― *羽仁もと子『羽仁もと子著作集』*
 
-</div>
+---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=twinkling" />
-</div>
+### 📅 更新履歴
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
-  
-  ⭐ From [eightman999](https://github.com/eightman999) with ❤️  
-  "Modding history, one commit at a time. 🛠️"
-</div>
+- 2025.06.09: ポータル風に改装完了
+- 2025.06.08: 名言追加
+- 2025.06.07: Push集計対応
+
+  </td>
+</tr>
+
+<tr>
+  <td align="center" colspan="2">
+    <hr />
+    <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="800"><br>
+    <small>© 2025 eightman999 | "Modding history, one commit at a time."</small>
+  </td>
+</tr>
+</table>
