@@ -4,7 +4,7 @@
 <tr>
   <td align="center" colspan="2">
     <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="800">
-    <h1 style="color:#003366;margin:10px 0;">Welcome to My GitHub Home Page 🏠</h1>
+    <h1 style="color:#003366;margin:10px 0;">Welcome to My GitHub Profile Page 🏠</h1>
     <p style="font-size:14px;color:#666;">Since 2025.06.09</p>
   </td>
 </tr>
