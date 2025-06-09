@@ -50,7 +50,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=user&custom_title=User's%20GitHub%20Activity%20Graph&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=user&custom_title=User's%20GitHub%20Activity%20Graph&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true&hide=issues&area_color=9bd3f7&custom_title=Contribution+Graph+(Including+Push+Commits)" />
 </div>
 
 ## 🏆 GitHub Trophies
@@ -62,7 +62,11 @@
 ## 💭 Dev Quote
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" />
+
+> 💬 **力は「出るもの出せるもの」**  
+> 💬 **「やってみよう」と「どうせ駄目だ」**  
+> ― *羽仁もと子『羽仁もと子著作集』*
+
 </div>
 
 <div align="center">
