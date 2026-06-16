@@ -7,19 +7,28 @@
 # 🏠 eightman999
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=003366&center=true&vCenter=true&width=620&lines=Programmer+%26+Modder+from+Japan+%F0%9F%87%AF%F0%9F%87%B5;Mac-native+apps+%2F+HOI4+naval+mods+%2F+small+tools;Powered+by+curiosity+%26+caffeine+%E2%98%95" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=003366&center=true&vCenter=true&width=640&lines=macOS+apps+%2F+Android+utilities+%2F+modding+tools;I+build+practical+desktop+%26+mobile+software;Connecting+old+software+culture+with+modern+platforms" alt="typing"/>
 </a>
 
 <p>
   <img src="https://img.shields.io/badge/Location-Japan-003366?style=flat-square&logo=googlemaps&logoColor=white" />
   <a href="https://github.com/eightman999?tab=followers"><img src="https://img.shields.io/github/followers/eightman999?style=flat-square&color=003366&label=Followers&logo=github" /></a>
-  <img src="https://komarev.com/ghpvc/?username=eightman999&style=flat-square&color=6699cc&label=Profile+Views" />
+  <a href="https://www.furinlab.com"><img src="https://img.shields.io/badge/Furin_Lab-furinlab.com-6699cc?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Discord-_eightman_-5865F2?style=flat-square&logo=discord&logoColor=white" />
 </p>
 
 </div>
 
-Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 naval mods & tooling**, and a steady stream of small tools across whatever language fits the job.
+---
+
+## 🧑‍💻 About Me
+
+I'm an **information engineering student** building **macOS apps, Android utilities, and modding / development tools**. I like making practical tools, GUI apps, and systems that connect old software culture with modern platforms.
+
+- 🎓 Information engineering student
+- 🛠️ Building **macOS apps**, **Android utilities**, and **HOI4 / modding tools**
+- 🎮 Into GUI tools, strategy games, desktop apps, and practical utilities
+- 🧰 Works across **Swift · C++ · Python · Kotlin / Java · C# · web**
 
 ---
 
@@ -27,31 +36,50 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 
 ### 🌸 [Ourin / 桜鈴](https://github.com/eightman999/Ourin)
 
-**Mac-native Ukagaka-compatible baseware.** Built with Swift and C++ — supports SHIORI/YAYA-related compatibility, ghost loading, and a fully macOS-native UI.
+Mac-native Ukagaka-compatible baseware for modern macOS, built mainly with Swift and C++.
 
-<img src="https://img.shields.io/github/stars/eightman999/Ourin?style=flat-square&color=003366&label=stars&logo=github" />
+<a href="https://github.com/eightman999/Ourin"><img src="https://img.shields.io/github/stars/eightman999/Ourin?style=flat-square&color=003366&label=stars&logo=github" /></a>
 <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
 <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" />
 
 ### 🔍 [DiffLoupe](https://github.com/eightman999/DiffLoupe)
 
-**A macOS-native visual diff tool for people who miss WinMerge.** Built mainly with SwiftUI, with older C++/Qt and Python/PySide6 implementations kept as legacy.
+A macOS-native folder and file diff tool inspired by WinMerge. Built mainly with SwiftUI, with older C++/Qt and Python/PySide6 implementations kept as legacy.
 
-<img src="https://img.shields.io/github/stars/eightman999/DiffLoupe?style=flat-square&color=003366&label=stars&logo=github" />
+<a href="https://github.com/eightman999/DiffLoupe"><img src="https://img.shields.io/github/stars/eightman999/DiffLoupe?style=flat-square&color=003366&label=stars&logo=github" /></a>
 <img src="https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white" />
-<img src="https://img.shields.io/badge/PySide6-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" />
 
-### 📖 [Novel Reader](https://github.com/eightman999/Novel_reader_app)
+### 📱 WattTime &nbsp;·&nbsp; <kbd>Published Android App</kbd>
 
-**Android novel reader for Syosetu / Kakuyomu.** Offline reading, vertical text, ruby support, and background updates.
+A published Android utility app for converting microwave heating times between different wattages.
 
-<img src="https://img.shields.io/github/stars/eightman999/Novel_reader_app?style=flat-square&color=003366&label=stars&logo=github" />
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+- 🌍 Multi-language support
+- 🏠 Home-screen widget
+- 🌗 Dark & light mode
+- 🔗 Available via the official product page
+
+<a href="https://www.furinlab.com/apps/watttime.html"><img src="https://img.shields.io/badge/Product_Page-furinlab.com-003366?style=flat-square&logo=googlechrome&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
 
-> 🧪 **Also building:** HOI4 naval mods & tooling ([HOI4NavalModder](https://github.com/eightman999/HOI4NavalModder), [hoi4_modding](https://github.com/eightman999/hoi4_modding), [mcp-hoi4](https://github.com/eightman999/mcp-hoi4)), Minecraft datapacks, MCP servers, and assorted CLIs / GUI tools — full list further down. 色々やってます。
+### ⚓ [HOI4NavalModder](https://github.com/eightman999/HOI4NavalModder)
+
+A naval design and modding support tool for Hearts of Iron IV.
+
+<a href="https://github.com/eightman999/HOI4NavalModder"><img src="https://img.shields.io/github/stars/eightman999/HOI4NavalModder?style=flat-square&color=003366&label=stars&logo=github" /></a>
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
+<img src="https://img.shields.io/badge/HOI4_Modding-Paradox-203a5e?style=flat-square&logo=paradox-interactive&logoColor=white" />
+
+### 🛠️ [N-Editor](https://github.com/eightman999/N-Editor)
+
+GUI editor and utility tools for Hearts of Iron IV modding workflows.
+
+<a href="https://github.com/eightman999/N-Editor"><img src="https://img.shields.io/github/stars/eightman999/N-Editor?style=flat-square&color=003366&label=stars&logo=github" /></a>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/HOI4_Modding-Paradox-203a5e?style=flat-square&logo=paradox-interactive&logoColor=white" />
 
 ---
 
@@ -61,20 +89,15 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,java,kotlin,swift,dart,ts,js,html,css,c,cpp,cs,lua,godot&perline=14" />
+<img src="https://skillicons.dev/icons?i=swift,cpp,python,kotlin,java,cs,ts,js,html,css,c,dart,lua,godot&perline=14" />
 
 **Tools & AI**
 
-<img src="https://skillicons.dev/icons?i=vscode,xcode,github,git&perline=14" />
+<img src="https://skillicons.dev/icons?i=xcode,vscode,github,git&perline=14" />
 &nbsp;
 <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
 <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&logo=openai&logoColor=white" />
-
-**Modding**
-
-<img src="https://img.shields.io/badge/HOI4_Modding-Paradox-203a5e?style=flat-square&logo=paradox-interactive&logoColor=white" />
-<img src="https://img.shields.io/badge/Minecraft_Modding-Creative-3a7d3a?style=flat-square&logo=minecraft&logoColor=white" />
 
 </div>
 
@@ -89,24 +112,16 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=eightman999&background=f8f8ff&border=99b3cc&stroke=99b3cc&ring=003366&fire=ff6b6b&currStreakLabel=003366&sideLabels=2a3b4c&dates=8899aa&currStreakNum=003366&sideNums=003366&dayLabels=6699cc&hide_border=false&border_radius=8" />
-
-<br/>
-
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=eightman999&bg_color=f8f8ff&color=003366&line=6699cc&point=447799&area_color=cfe0f0&area=true&hide_border=false&custom_title=Contribution%20Graph" />
 
 </div>
 
----
-
-## ⭐ All Repositories
-
 <details>
-<summary><b>全リポジトリのスター数 / 言語一覧 (click to expand)</b></summary>
+<summary><b>📂 All repositories — stars & languages</b></summary>
 
 <br/>
 
-> 公開リポジトリ **34** ・ 合計スター **12 ⭐**
+> Public repositories **34** · total stars **12 ⭐**
 
 | ⭐ | Repository | Language |
 |:--:|:--|:--|
@@ -116,7 +131,6 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 | 1 | [hoi4-modding-skills](https://github.com/eightman999/hoi4-modding-skills) | HTML |
 | 1 | [Man-of-Iron](https://github.com/eightman999/Man-of-Iron) | Lua |
 | 0 | [HOI4NavalModder](https://github.com/eightman999/HOI4NavalModder) | C# |
-| 0 | [NVPDA](https://github.com/eightman999/NVPDA) | Python |
 | 0 | [N-Editor](https://github.com/eightman999/N-Editor) | Python |
 | 0 | [DiffLoupe](https://github.com/eightman999/DiffLoupe) | C++ |
 | 0 | [Obsidian](https://github.com/eightman999/Obsidian) | C++ |
@@ -125,7 +139,6 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 | 0 | [Lunchon](https://github.com/eightman999/Lunchon) | TypeScript |
 | 0 | [Sedore](https://github.com/eightman999/Sedore) | Dart |
 | 0 | [UUID_Gen](https://github.com/eightman999/UUID_Gen) | Kotlin |
-| 0 | [WattTime](https://github.com/eightman999/WattTime) | Kotlin |
 | 0 | [Kozukai-Android](https://github.com/eightman999/Kozukai-Android) | Kotlin |
 | 0 | [CivNomics](https://github.com/eightman999/CivNomics) | Kotlin |
 | 0 | [FUNNYAPPS](https://github.com/eightman999/FUNNYAPPS) | Kotlin |
@@ -160,17 +173,15 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 
 ---
 
-## 🧑‍💻 About / Contact
+## 🔗 Links / Contact
 
 | | |
 |---|---|
-| 👤 **Name** | eightman999 |
-| 📍 **Location** | 🇯🇵 Japan |
-| 💼 **Role** | Programmer & Modder |
-| 🎯 **Focus** | Mac-native apps / Strategy-game modding / Small tools |
-| 🍳 **好きなこと** | 料理をすること・🍱 食べること |
+| 🌐 **Website** | [Furin Lab — furinlab.com](https://www.furinlab.com) |
+| 📱 **WattTime** | [Product Page](https://www.furinlab.com/apps/watttime.html) |
 | 📫 **GitHub** | [@eightman999](https://github.com/eightman999) |
 | 💬 **Discord** | `_eightman_` |
+| 🍳 **Off-keyboard** | 料理をすること・🍱 食べること |
 
 > 🗣️ 好きな開発環境について語りたい方、歓迎です！
 
@@ -180,12 +191,11 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 <tr>
 <td valign="top" width="50%">
 
-### 🗓️ 最近の更新
+### 🗓️ Recent updates
 
-- `2026.06.16` プロフィールを全面リニューアル（代表作・スター/言語統計を追加）
-- `2025.06.09` デザインを個人ページ風に改装
+- `2026.06.16` Reorganized profile around Main Projects
+- `2025.06.09` 個人ページ風にデザイン改装
 - `2025.06.09` Modding に Minecraft を追加
-- `2025.06.08` 名言追加
 - `2025.06.07` Push 反映グラフ適用
 
 </td>
@@ -209,6 +219,6 @@ Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 nava
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="footer"/>
 
-<sub>© 2025 eightman999 · Powered by curiosity & caffeine ☕</sub>
+<sub>© 2025 eightman999 · Furin Lab · Powered by curiosity & caffeine ☕</sub>
 
 </div>
