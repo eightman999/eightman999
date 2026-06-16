@@ -4,15 +4,14 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="header"/>
 
-# 🏠 Welcome to eightman999's GitHub
+# 🏠 eightman999
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=003366&center=true&vCenter=true&width=620&lines=Programmer+%26+Modder+from+Japan+%F0%9F%87%AF%F0%9F%87%B5;HOI4+Naval+MOD+%2F+GUI+Tools+%2F+Small+Apps;Powered+by+curiosity+%26+caffeine+%E2%98%95" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=003366&center=true&vCenter=true&width=620&lines=Programmer+%26+Modder+from+Japan+%F0%9F%87%AF%F0%9F%87%B5;Mac-native+apps+%2F+HOI4+naval+mods+%2F+small+tools;Powered+by+curiosity+%26+caffeine+%E2%98%95" alt="typing"/>
 </a>
 
 <p>
   <img src="https://img.shields.io/badge/Location-Japan-003366?style=flat-square&logo=googlemaps&logoColor=white" />
-  <img src="https://img.shields.io/badge/Since-2025.06.09-6699cc?style=flat-square&logo=github&logoColor=white" />
   <a href="https://github.com/eightman999?tab=followers"><img src="https://img.shields.io/github/followers/eightman999?style=flat-square&color=003366&label=Followers&logo=github" /></a>
   <img src="https://komarev.com/ghpvc/?username=eightman999&style=flat-square&color=6699cc&label=Profile+Views" />
   <img src="https://img.shields.io/badge/Discord-_eightman_-5865F2?style=flat-square&logo=discord&logoColor=white" />
@@ -20,18 +19,39 @@
 
 </div>
 
+Programmer & modder from Japan. I build **Mac-native desktop apps**, **HOI4 naval mods & tooling**, and a steady stream of small tools across whatever language fits the job.
+
 ---
 
-## 🧑‍💻 About Me
+## 🚀 Main Projects
 
-| | |
-|---|---|
-| 👤 **Name** | eightman999 |
-| 📍 **Location** | 🇯🇵 Japan |
-| 💼 **Occupation** | Programmer & Modder |
-| 🎯 **Focus** | Strategy Games / GUI Design / Small Tools |
-| 🍳 **好きなこと** | 料理をすること・🍱 食べること |
-| 🔥 **最近触ってる** | C# / Python / HOI4 艦船MOD構造 / Minecraft データパック |
+### 🌸 [Ourin / 桜鈴](https://github.com/eightman999/Ourin)
+
+**Mac-native Ukagaka-compatible baseware.** Built with Swift and C++ — supports SHIORI/YAYA-related compatibility, ghost loading, and a fully macOS-native UI.
+
+<img src="https://img.shields.io/github/stars/eightman999/Ourin?style=flat-square&color=003366&label=stars&logo=github" />
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" />
+
+### 🔍 [DiffLoupe](https://github.com/eightman999/DiffLoupe)
+
+**A macOS-native visual diff tool for people who miss WinMerge.** Built mainly with SwiftUI, with older C++/Qt and Python/PySide6 implementations kept as legacy.
+
+<img src="https://img.shields.io/github/stars/eightman999/DiffLoupe?style=flat-square&color=003366&label=stars&logo=github" />
+<img src="https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white" />
+<img src="https://img.shields.io/badge/PySide6-3776AB?style=flat-square&logo=python&logoColor=white" />
+
+### 📖 [Novel Reader](https://github.com/eightman999/Novel_reader_app)
+
+**Android novel reader for Syosetu / Kakuyomu.** Offline reading, vertical text, ruby support, and background updates.
+
+<img src="https://img.shields.io/github/stars/eightman999/Novel_reader_app?style=flat-square&color=003366&label=stars&logo=github" />
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
+
+> 🧪 **Also building:** HOI4 naval mods & tooling ([HOI4NavalModder](https://github.com/eightman999/HOI4NavalModder), [hoi4_modding](https://github.com/eightman999/hoi4_modding), [mcp-hoi4](https://github.com/eightman999/mcp-hoi4)), Minecraft datapacks, MCP servers, and assorted CLIs / GUI tools — full list further down. 色々やってます。
 
 ---
 
@@ -64,7 +84,7 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=eightman999&show_icons=true&count_private=true&include_all_commits=true&title_color=003366&text_color=2a3b4c&icon_color=6699cc&bg_color=f8f8ff&border_color=99b3cc&hide_border=false" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=eightman999&show_icons=true&hide_rank=true&count_private=true&include_all_commits=true&title_color=003366&text_color=2a3b4c&icon_color=6699cc&bg_color=f8f8ff&border_color=99b3cc&hide_border=false" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eightman999&layout=compact&langs_count=10&title_color=003366&text_color=2a3b4c&bg_color=f8f8ff&border_color=99b3cc&hide_border=false" />
 
 <br/>
@@ -79,27 +99,10 @@
 
 ---
 
-## ⭐ Featured Repositories
-
-<div align="center">
-
-<a href="https://github.com/eightman999/Ourin">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eightman999&repo=Ourin&show_owner=true&title_color=003366&text_color=2a3b4c&icon_color=6699cc&bg_color=f8f8ff&border_color=99b3cc" />
-</a>
-<a href="https://github.com/eightman999/Novel_reader_app">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eightman999&repo=Novel_reader_app&show_owner=true&title_color=003366&text_color=2a3b4c&icon_color=6699cc&bg_color=f8f8ff&border_color=99b3cc" />
-</a>
-<a href="https://github.com/eightman999/hoi4_modding">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eightman999&repo=hoi4_modding&show_owner=true&title_color=003366&text_color=2a3b4c&icon_color=6699cc&bg_color=f8f8ff&border_color=99b3cc" />
-</a>
-<a href="https://github.com/eightman999/hoi4-modding-skills">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eightman999&repo=hoi4-modding-skills&show_owner=true&title_color=003366&text_color=2a3b4c&icon_color=6699cc&bg_color=f8f8ff&border_color=99b3cc" />
-</a>
-
-</div>
+## ⭐ All Repositories
 
 <details>
-<summary><b>⭐ 全リポジトリのスター数 / 言語一覧 (click to expand)</b></summary>
+<summary><b>全リポジトリのスター数 / 言語一覧 (click to expand)</b></summary>
 
 <br/>
 
@@ -157,18 +160,29 @@
 
 ---
 
+## 🧑‍💻 About / Contact
+
+| | |
+|---|---|
+| 👤 **Name** | eightman999 |
+| 📍 **Location** | 🇯🇵 Japan |
+| 💼 **Role** | Programmer & Modder |
+| 🎯 **Focus** | Mac-native apps / Strategy-game modding / Small tools |
+| 🍳 **好きなこと** | 料理をすること・🍱 食べること |
+| 📫 **GitHub** | [@eightman999](https://github.com/eightman999) |
+| 💬 **Discord** | `_eightman_` |
+
+> 🗣️ 好きな開発環境について語りたい方、歓迎です！
+
+---
+
 <table>
 <tr>
 <td valign="top" width="50%">
 
-### ✉️ Contact
-
-- 📫 GitHub: [@eightman999](https://github.com/eightman999)
-- 💬 Discord: `_eightman_`
-- 🗣️ 好きな開発環境について語りたい方、歓迎です！
-
 ### 🗓️ 最近の更新
 
+- `2026.06.16` プロフィールを全面リニューアル（代表作・スター/言語統計を追加）
 - `2025.06.09` デザインを個人ページ風に改装
 - `2025.06.09` Modding に Minecraft を追加
 - `2025.06.08` 名言追加
