@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f2f2f2;
+  background: #0a0a0a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: #0a0a0a; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 56px 0 80px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #8d8d8d;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, p { margin-top: 0; }
+h1 { margin-bottom: 12px; font-size: clamp(42px, 8vw, 84px); letter-spacing: -.055em; line-height: .94; }
+h2 { margin-bottom: 0; font-size: clamp(26px, 4vw, 38px); letter-spacing: -.035em; }
+h3 { margin-bottom: 12px; font-size: 20px; letter-spacing: -.02em; }
+.lede { max-width: 640px; margin-bottom: 0; color: #a9a9a9; font-size: 17px; }
+
+.summary { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.summary span, .badge, .verify, .targetMeta span {
+  border: 1px solid #303030;
+  border-radius: 999px;
+  padding: 7px 10px;
+  color: #bebebe;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 28px 0 56px;
+  padding: 14px 18px;
+  border: 1px solid #2d2d2d;
+  border-radius: 14px;
+  background: #111;
+}
+.search span { color: #666; font-family: ui-monospace, monospace; }
+.search input { flex: 1; border: 0; outline: 0; color: #eee; background: transparent; font: inherit; }
+.search input::placeholder { color: #5f5f5f; }
+
+section { margin-top: 56px; }
+.sectionTitle { display: flex; justify-content: space-between; gap: 24px; align-items: end; margin-bottom: 18px; }
+.sectionTitle > p { max-width: 420px; margin: 0; color: #737373; font-size: 14px; text-align: right; }
+
+.workGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.card { border: 1px solid #272727; border-radius: 18px; background: #101010; }
+.workCard { min-height: 245px; padding: 20px; display: flex; flex-direction: column; }
+.cardTop, .cardFoot { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.cardTop { margin-bottom: 30px; }
+.cardFoot { margin-top: auto; padding-top: 18px; }
+.project { color: #777; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.next { color: #bdbdbd; line-height: 1.55; }
+.next strong { color: #fff; margin-right: 5px; }
+.blocker { padding: 10px 12px; border-left: 2px solid #d47b50; background: #18110e; color: #e0b09a; font-size: 13px; line-height: 1.5; }
+.state-blocked { border-color: #553223; }
+.state-in-progress { border-color: #314053; }
+
+.targetList { border-top: 1px solid #252525; }
+.target { display: grid; grid-template-columns: 1.1fr 1.8fr auto; gap: 24px; align-items: center; padding: 20px 4px; border-bottom: 1px solid #252525; }
+.targetIdentity { display: flex; gap: 12px; align-items: center; }
+.targetIdentity h3 { margin: 2px 0 0; }
+.runtime { width: 9px; height: 9px; border-radius: 50%; background: #555; flex: 0 0 auto; }
+.runtime-online { background: #63bd78; box-shadow: 0 0 18px rgba(99,189,120,.28); }
+.runtime-offline { background: #d15f5f; }
+.runtime-manual { background: #d0a75d; }
+.targetAction p { margin: 0; color: #c4c4c4; line-height: 1.5; }
+.targetAction small { display: block; margin-top: 5px; color: #696969; }
+.targetMeta { display: flex; gap: 6px; align-items: center; justify-content: flex-end; }
+
+.principle { padding: 26px; }
+.principle h2 { max-width: 800px; margin-bottom: 14px; }
+.principle > p:last-child { max-width: 760px; margin-bottom: 0; color: #9f9f9f; line-height: 1.7; }
+
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid #252525; color: #555; font-size: 12px; }
+
+@media (max-width: 760px) {
+  .shell { width: min(100% - 20px, 1180px); padding-top: 28px; }
+  .hero, .sectionTitle { align-items: flex-start; flex-direction: column; }
+  .summary { justify-content: flex-start; }
+  .sectionTitle > p { text-align: left; }
+  .workGrid { grid-template-columns: 1fr; }
+  .target { grid-template-columns: 1fr; gap: 12px; }
+  .targetMeta { justify-content: flex-start; }
+}
