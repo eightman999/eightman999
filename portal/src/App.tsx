@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { targets, work, type WorkItem } from "./data";
+import { harnessLanes } from "./harness";
 
 const stateLabel: Record<WorkItem["workState"], string> = {
   ready: "READY",
@@ -35,6 +36,17 @@ function App() {
     [normalized]
   );
 
+  const filteredHarnesses = useMemo(
+    () =>
+      harnessLanes.filter((lane) =>
+        [lane.name, lane.role, lane.mutation, lane.transport, lane.note]
+          .join(" ")
+          .toLowerCase()
+          .includes(normalized)
+      ),
+    [normalized]
+  );
+
   const counts = work.reduce<Record<string, number>>((acc, item) => {
     acc[item.workState] = (acc[item.workState] ?? 0) + 1;
     return acc;
@@ -52,6 +64,7 @@ function App() {
           <span>{counts["in-progress"] ?? 0} doing</span>
           <span>{counts.blocked ?? 0} blocked</span>
           <span>{targets.filter((t) => t.verification === "available").length} testable</span>
+          <span>{harnessLanes.length} harness lanes</span>
         </div>
       </header>
 
@@ -60,7 +73,7 @@ function App() {
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="タスク、実機、サーバー、次の一手を探す"
+          placeholder="タスク、実機、サーバー、Harness、次の一手を探す"
           autoComplete="off"
         />
       </label>
@@ -126,17 +139,45 @@ function App() {
         </div>
       </section>
 
+      <section>
+        <div className="sectionTitle">
+          <div>
+            <p className="eyebrow">Agent execution</p>
+            <h2>Harness lanes</h2>
+          </div>
+          <p>モデル名ではなく、役割・実行環境・書き込み権限を分離する。</p>
+        </div>
+
+        <div className="harnessGrid">
+          {filteredHarnesses.map((lane) => (
+            <article className="card harnessCard" key={lane.id}>
+              <div className="cardTop">
+                <span className="project">{lane.transport}</span>
+                <span className={`mutation mutation-${lane.mutation}`}>{lane.mutation}</span>
+              </div>
+              <h3>{lane.name}</h3>
+              <p className="harnessRole">{lane.role}</p>
+              <p className="harnessNote">{lane.note}</p>
+            </article>
+          ))}
+        </div>
+        <p className="harnessRule">
+          Claim = temporary execution ownership. Issue = project truth. PR = implementation evidence.
+        </p>
+      </section>
+
       <section className="principle card">
         <p className="eyebrow">Rule</p>
-        <h2>Project truth + runtime truth → next executable action.</h2>
+        <h2>Project truth + harness truth + runtime truth → next executable action.</h2>
         <p>
-          GitHub が作業の真実。実機とサービスが稼働の真実。この画面はそれらを複製せず、
+          GitHub が作業の真実。Harness ledger が「いま誰が触っているか」の一時的な真実。
+          実機とサービスが稼働の真実。この画面はそれらを複製せず、
           「今どうなっていて、次に何をすればいいか」だけへ圧縮する。
         </p>
       </section>
 
       <footer>
-        Public view. Secrets, private endpoints and credentials never belong here.
+        Public view. Secrets, private endpoints, credentials and private harness state never belong here.
       </footer>
     </main>
   );
