@@ -2,6 +2,34 @@
 
 This repository uses multiple coding agents.
 
+## Shared harness / claim protocol
+
+For substantive implementation work tied to a GitHub Issue, workers should claim the task before editing when multiple agents may run concurrently.
+
+Use `scripts/harness.mjs`:
+
+```bash
+node scripts/harness.mjs claim OWNER/REPO ISSUE \
+  --worker MODEL/HARNESS/SESSION \
+  --harness HARNESS \
+  --model MODEL \
+  --transport local \
+  --session SESSION \
+  --worktree "$PWD"
+```
+
+Rules:
+- GitHub Issues remain the canonical record of the desired outcome and assignment context.
+- GitHub PRs remain the canonical record of implementation and verification.
+- The harness ledger records only temporary execution ownership.
+- Keep `model`, `harness`, `transport`, and `session` conceptually separate.
+- Long-running work should renew its lease.
+- An expired lease is NOT permission to silently steal a task. Inspect the old session/worktree/PRs, then use `reclaim --evidence ...`.
+- Release with `review`, `ready`, `blocked`, `done`, or `abandoned` as appropriate.
+- The v0 ledger is local-per-host, not a distributed lock across machines.
+
+See `docs/HARNESS.md`.
+
 ## Agy / Antigravity CLI
 
 Default role:
